@@ -1,0 +1,12 @@
+import com.yt.axb.Xnumber
+
+model {
+	Iterable<Xnumber> list
+	Integer count
+}
+
+json {
+	list tmpl.xnumber(list ?: [])
+	total count
+}
+

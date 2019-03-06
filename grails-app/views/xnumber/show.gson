@@ -1,0 +1,7 @@
+import com.yt.axb.Xnumber
+
+model {
+	Xnumber xnumber
+}
+
+json tmpl.xnumber(xnumber)
